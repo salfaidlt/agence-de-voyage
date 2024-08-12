@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyage</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <header>
+        <h1>Bienvenue à l'Agence de Voyage</h1>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>Explorez le monde avec nous</h2>
+            <p>Découvrez des destinations incroyables et réservez vos voyages de rêve.</p>
+        </div>
+    </section>
+
+    <section id="destinations">
+        <h2>Destinations Populaires</h2>
+        <div class="destinations-grid">
+            <div class="destination">
+                <img src="images/bobo.jpeg" alt="Bobo Dioulasso">
+                <h3>Bobo-Dioulasso, Burkina Faso</h3>
+                <p>Découvrez la belle cité de SYA, ses monuments emblématiques et sa culture unique.</p>
+            </div>
+            <div class="destination">
+                <img src="images/banfora.jpg" alt="Tokyo">
+                <h3>Banfora, Burkina Faso</h3>
+                <p>Explorez la fusion parfaite entre tradition et modernité</p>
+            </div>
+            <div class="destination">
+                <img src="images/sindou.jpg" alt="New York">
+                <h3>Sindou, Burkina Faso</h3>
+                <p>Découvres les merveilles de la ville de Sindou.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="offers">
+        <h2>Offres Spéciales</h2>
+        <div class="offers-grid">
+            <div class="offer">
+                <h3>Voyage à Bobo-Dioulasso - 20% de réduction</h3>
+                <p>Réservez dès maintenant et profitez d'une remise exclusive pour un séjour à Bobo-Dioulasso.</p>
+            </div>
+            <div class="offer">
+                <h3>Circuit à Banfora - 15% de réduction</h3>
+                <p>Explorez Banfora avec un circuit organisé et bénéficiez d'une réduction.</p>
+            </div>
+            <div class="offer">
+                <h3>Séjour aux Pics de Sindou - 10% de réduction</h3>
+                <p>Détendez-vous dans les monts avec une réduction spéciale.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <form id="contact-form">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Agence de Voyage. Tous droits réservés.</p>
+        <p>Site conçu par Salfaï</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
